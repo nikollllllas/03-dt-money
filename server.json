@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2024-03-15T10:36:58.143Z"
+    },
+    {
+      "id": 3,
+      "description": "Rocketseat One",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1870,
+      "createdAt": "2024-03-15T10:36:58.143Z"
     }
   ]
 }
