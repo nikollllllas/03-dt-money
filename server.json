@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de App",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-03-15T13:36:58.143Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer - Silvana Lima",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-03-15T10:36:58.143Z"
+    }
+  ]
+}
