@@ -6,6 +6,7 @@ import {
 import { SummaryCard, SummaryContainer } from './styles'
 import { useContext } from 'react'
 import { TransactionsContext } from '../../contexts/transactionscontext'
+import { priceFormatter } from '../../utils/formatter'
 
 export function Summary() {
   const { transactions } = useContext(TransactionsContext)
@@ -41,7 +42,7 @@ export function Summary() {
           />
         </header>
 
-        <strong>{summary.income}</strong>
+        <strong>{priceFormatter.format(summary.income)}</strong>
       </SummaryCard>
 
       <SummaryCard>
@@ -54,7 +55,7 @@ export function Summary() {
           />
         </header>
 
-        <strong>{summary.outcome}</strong>
+        <strong>{priceFormatter.format(summary.outcome)}</strong>
       </SummaryCard>
 
       <SummaryCard variant='green'>
@@ -67,7 +68,7 @@ export function Summary() {
           />
         </header>
 
-        <strong>{summary.total}</strong>
+        <strong>{priceFormatter.format(summary.total)}</strong>
       </SummaryCard>
     </SummaryContainer>
   )
