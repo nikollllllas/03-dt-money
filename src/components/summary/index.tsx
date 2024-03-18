@@ -27,7 +27,7 @@ export function Summary() {
 
       <SummaryCard>
         <header>
-          <span>Entradas</span>
+          <span>Saídas</span>
 
           <ArrowCircleDown
             size={32}

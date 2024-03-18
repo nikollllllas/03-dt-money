@@ -23,6 +23,22 @@
       "category": "Educação",
       "price": 1870,
       "createdAt": "2024-03-15T10:36:58.143Z"
+    },
+    {
+      "description": "Desenvolvimento de Planilha",
+      "price": 7020,
+      "category": "Desenvolvimento",
+      "type": "income",
+      "createdAt": "2024-03-18T18:52:16.920Z",
+      "id": 4
+    },
+    {
+      "description": "Iogurte Grego",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-03-18T19:02:15.736Z",
+      "id": 5
     }
   ]
 }
